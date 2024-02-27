@@ -50,8 +50,7 @@ def main():
     
     root = tk.Tk()
     app = TranslationApp(root, prog_logic)
-    # Запускаем главный цикл Tkinter
     root.mainloop()
 
-if __name__ == '__main__':  # Исправить синтаксис здесь
+if __name__ == '__main__':  
     main()
