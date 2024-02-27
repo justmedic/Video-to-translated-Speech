@@ -8,8 +8,8 @@ def ffmpeg_append():
     Добавляет ffmpeg (утилиту для работы с аудио) в PATH локально
     """
     # Путь к папке с ffmpeg в вашем проекте
-    ffmpeg_path = 'C:\\Users\\bychk\\Desktop\\ytb_to_text_v3\\ffmpeg\\bin'
-    # Добавляем путь к ffmpeg в PATH для текущего окружения
+    ffmpeg_path = '......\\ffmpeg\\bin'
+
     os.environ["PATH"] += os.pathsep + ffmpeg_path
 
 
