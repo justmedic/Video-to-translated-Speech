@@ -13,6 +13,8 @@ git clone https://github.com/justmedic/Video-to-translated-Speech
 ```
 https://drive.google.com/drive/folders/1L3LFyS5dK-NZZwVfwnl2hwWn0tlPj6SO?usp=sharing
 ```
+Потом зайдите в utilites.py и вставьте туда абсолютный путь к bin в папке ffmpeg
+
 
 Когда все установилось, запускаем через докер (некоторые библиотеки очень объемные, так что загрузка будет долгой)
 ```
