@@ -7,10 +7,9 @@ class Translate:
         self.to_code = to_code
         argostranslate.package.update_package_index()
         available_packages = argostranslate.package.get_available_packages()
-        # Ниже нужно исправить поля доступа к кодам языков
         package_to_install = next(
             filter(
-                lambda x: x.from_code == self.from_code and x.to_code == self.to_code,  # Исправлен доступ к атрибутам
+                lambda x: x.from_code == self.from_code and x.to_code == self.to_code,  
                 available_packages
             ),
             None
@@ -19,6 +18,7 @@ class Translate:
             argostranslate.package.install_from_path(package_to_install.download())
         else:
             raise Exception("Translation package not found.")
+            
     def translate(self, text: str):
         """
         Перевод текста.
