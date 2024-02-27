@@ -6,7 +6,7 @@
 
 Копировать
 ```
-git clone https://github.com/justmedic/VtS/
+git clone https://github.com/justmedic/Video-to-translated-Speech
 ```
 Заходим на гугл диск, скачиваем все и разархивируем в директории проекта (где лежит файл main.py)
 
